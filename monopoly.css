@@ -1,0 +1,2431 @@
+body {
+  background-color: rgb(243, 186, 136);
+}
+
+.arena {
+  width: 945px;
+  height: 900px;
+  background-color: rgb(243, 186, 136);
+  border-style: solid;
+  border-width: 7px;
+  position: relative;
+}
+
+.topleft {
+  width: 17%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.topleft .hfirst {
+  font-size: 115%;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+.topleft .hsecond {
+  font-size: 125%;
+  text-align: center;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 0;
+  bottom: 15%;
+}
+
+.topleft img {
+  width: 100%;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+}
+
+.topright {
+  width: 17%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.topright .hfirst {
+  font-size: 115%;
+  text-align: center;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0;
+  top: 5%;
+}
+
+.topright .hsecond {
+  font-size: 125%;
+  text-align: center;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 10%;
+  bottom: 7%;
+}
+
+.topright img {
+  width: 60%;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 28%;
+  bottom: 20%;
+}
+
+.bottomleft {
+  width: 17%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.firsttext {
+  transform: rotate(90deg);
+  position: absolute;
+  left: -5%;
+  top: 20%;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.jail {
+  position: absolute;
+  width: 80%;
+  height: 85%;
+  background-color: chocolate;
+  right: 0;
+}
+
+.jail .hfirst {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  margin: 0;
+  transform: rotate(45deg);
+  font-size: 120%;
+}
+
+.jail .hsecond {
+  position: absolute;
+  left: 5%;
+  bottom: 12%;
+  margin: 0;
+  transform: rotate(45deg);
+  font-size: 120%;
+}
+
+.jail img {
+  position: absolute;
+  left: 20%;
+  bottom: 25%;
+  margin: 0;
+  transform: rotate(45deg);
+  width: 60%;
+  border-style: solid;
+}
+
+.secondtext {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.bottomright {
+  width: 17%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pstart {
+  transform: rotate(-45deg);
+  margin: 0 10%;
+  top: 7%;
+  right: 33%;
+  position: absolute;
+  text-align: center;
+  font-size: 90%;
+  font-weight: bold;
+}
+
+.hstart {
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-size: 150%;
+}
+
+.arrow {
+  width: 99%;
+  position: absolute;
+  bottom: -15%;
+  left: 1%;
+}
+
+.leftfirstfirst {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 16.7%;
+  left: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.leftfirstfirst .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: orange;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.leftfirstfirst .hfirst {
+  position: absolute;
+  right: 20%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstfirst .hsecond {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstsecond {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 27.7%;
+  left: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.leftfirstsecond .miniarea {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 0 3px 0 0;
+}
+
+.leftfirstsecond .hfirst {
+  position: absolute;
+  left: 75%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstsecond .hsecond {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstsecond img {
+  position: absolute;
+  width: 50%;
+  transform: rotate(90deg);
+  top: 10%;
+  left: 23%;
+}
+
+.leftfirstsecond .hthird {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstthird {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 38.7%;
+  left: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.leftfirstthird .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: orange;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.leftfirstthird .hfirst {
+  position: absolute;
+  right: 27%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstthird .hsecond {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstfourth {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 49.7%;
+  left: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.leftfirstfourth .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: magenta;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.leftfirstfourth .hfirst {
+  position: absolute;
+  right: 27%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstfourth .hsecond {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstfifth {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 60.7%;
+  left: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.leftfirstfifth .miniarea {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 0 3px 0 0;
+}
+
+.leftfirstfifth .hfirst {
+  position: absolute;
+  left: 77%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstfifth .hsecond {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstfifth img {
+  position: absolute;
+  width: 55%;
+  transform: rotate(90deg);
+  top: 15%;
+  left: 15%;
+}
+
+.leftfirstsixths {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 71.7%;
+  left: 0;
+  border-style: solid;
+  border-width: 3px 0 3px 0;
+}
+
+.leftfirstsixths .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: magenta;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.leftfirstsixths .hfirst {
+  position: absolute;
+  right: 25%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.leftfirstsixths .hsecond {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  transform: rotate(90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstfirst {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 16.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.topfirstfirst .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.topfirstfirst .hfirst {
+  position: absolute;
+  right: 40%;
+  top: 55%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstfirst .hsecond {
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstsecond {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 27.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.topfirstsecond .miniarea {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+}
+
+.topfirstsecond .hfirst {
+  position: absolute;
+  left: 18%;
+  top: 80%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstsecond img {
+  position: absolute;
+  width: 105%;
+  transform: rotate(180deg);
+  top: 5%;
+  left: 0%;
+}
+
+.topfirstthird {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 38.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.topfirstthird .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.topfirstthird .hfirst {
+  position: absolute;
+  right: 17%;
+  top: 55%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstthird .hsecond {
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstfourth {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 49.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.topfirstfourth .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: gold;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.topfirstfourth .hfirst {
+  position: absolute;
+  right: 37%;
+  top: 55%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstfourth .hsecond {
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstfifth {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 60.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.topfirstfifth .miniarea {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+}
+
+.topfirstfifth .hfirst {
+  position: absolute;
+  left: 33%;
+  top: 85%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstfifth .hsecond {
+  position: absolute;
+  left: 25%;
+  top: 72%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstfifth img {
+  position: absolute;
+  width: 65%;
+  transform: rotate(180deg);
+  top: 23%;
+  left: 15%;
+}
+
+.topfirstfifth .hthird {
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstsixths {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 71.6%;
+  border-style: solid;
+  border-width: 0 3px 0 3px;
+}
+
+.topfirstsixths .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: gold;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.topfirstsixths .hfirst {
+  position: absolute;
+  left: 35%;
+  top: 55%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.topfirstsixths .hsecond {
+  position: absolute;
+  left: 35%;
+  top: 5%;
+  transform: rotate(180deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstfirst {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 16.7%;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.rightfirstfirst .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: green;
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.rightfirstfirst .hfirst {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstfirst .hsecond {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstsecond {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 27.7%;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.rightfirstsecond .miniarea {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.rightfirstsecond .hfirst {
+  position: absolute;
+  right: 77%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstsecond .hsecond {
+  position: absolute;
+  left: 3%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstsecond img {
+  position: absolute;
+  width: 55%;
+  transform: rotate(-90deg);
+  top: 15%;
+  right: 15%;
+}
+
+.rightfirstthird {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 38.7%;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.rightfirstthird .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: green;
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.rightfirstthird .hfirst {
+  position: absolute;
+  left: 23%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstthird .hsecond {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstfourth {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 49.7%;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.rightfirstfourth .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.rightfirstfourth .hfirst {
+  position: absolute;
+  left: 28%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstfourth .hsecond {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstfifth {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 60.7%;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.rightfirstfifth .miniarea {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.rightfirstfifth .hfirst {
+  position: absolute;
+  right: 78.5%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstfifth .hsecond {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstfifth img {
+  position: absolute;
+  width: 50%;
+  transform: rotate(-90deg);
+  top: 10%;
+  right: 23%;
+}
+
+.rightfirstfifth .hthird {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstsixths {
+  width: 17%;
+  height: 11%;
+  position: absolute;
+  top: 71.7%;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 3px 0;
+}
+
+.rightfirstsixths .miniarea {
+  width: 20%;
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  border-style: solid;
+  border-width: 0 3px;
+}
+
+.rightfirstsixths .hfirst {
+  position: absolute;
+  left: 23%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.rightfirstsixths .hsecond {
+  position: absolute;
+  right: 3%;
+  top: 40%;
+  transform: rotate(-90deg);
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstfirst {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  left: 16.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.bottomfirstfirst .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: deepskyblue;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.bottomfirstfirst .hfirst {
+  position: absolute;
+  right: 28%;
+  bottom: 60%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstfirst .hsecond {
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstsecond {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  left: 27.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.bottomfirstsecond .miniarea {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.bottomfirstsecond .hfirst {
+  position: absolute;
+  left: 27%;
+  bottom: 85%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstsecond .hsecond {
+  position: absolute;
+  left: 30%;
+  bottom: 74%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstsecond img {
+  position: absolute;
+  width: 75%;
+  bottom: 23%;
+  left: 15%;
+}
+
+.bottomfirstsecond .hthird {
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstthird {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  left: 38.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.bottomfirstthird .hfirst {
+  position: absolute;
+  right: 43%;
+  bottom: 60%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstthird .hsecond {
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstthird .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: deepskyblue;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.bottomfirstfourth {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  left: 49.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.bottomfirstfourth .hfirst {
+  position: absolute;
+  right: 43%;
+  bottom: 60%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstfourth .hsecond {
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstfourth .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: saddlebrown;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.bottomfirstfifth {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  left: 60.7%;
+  border-style: solid;
+  border-width: 0 0 0 3px;
+}
+
+.bottomfirstfifth .miniarea {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0 0 0;
+}
+
+.bottomfirstfifth .hfirst {
+  position: absolute;
+  left: 18%;
+  bottom: 80%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstfifth img {
+  position: absolute;
+  width: 105%;
+  bottom: 5%;
+  left: 0;
+}
+
+.bottomfirstsixths {
+  width: 11%;
+  height: 17%;
+  position: absolute;
+  bottom: 0;
+  left: 71.6%;
+  border-style: solid;
+  border-width: 0 3px 0 3px;
+}
+
+.bottomfirstsixths .miniarea {
+  width: 100%;
+  height: 20%;
+  background-color: saddlebrown;
+  position: absolute;
+  right: 0;
+  border-style: solid;
+  border-width: 3px 0;
+}
+
+.bottomfirstsixths .hfirst {
+  position: absolute;
+  right: 18%;
+  bottom: 60%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.bottomfirstsixths .hsecond {
+  position: absolute;
+  left: 35%;
+  bottom: 5%;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.centerarea {
+  width: 66%;
+  height: 66%;
+  position: absolute;
+  top: 17%;
+  left: 17%;
+  background-image: url("images/wallpaper.jpg");
+}
+
+.chestimage img {
+  width: 28%;
+  transform: rotate(135deg);
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border-style: solid;
+  border-color: white;
+}
+
+.logo {
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  transform: rotate(-45deg);
+}
+
+.logo h1 {
+  color: white;
+  font-size: 500%;
+  margin: 0;
+}
+
+.qimage img {
+  width: 33%;
+  transform: rotate(-45deg);
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  border-style: solid;
+  border-color: rgb(84, 36, 3);
+}
+
+.dice {
+  width: 100px;
+  height: 100px;
+  perspective: 300px;
+  margin: 10px;
+}
+
+.rolldice {
+  width: 100px;
+  margin-top: 10px;
+  font-size: 1em;
+  border: none;
+  background: skyblue;
+  color: white;
+}
+
+.diceFaces {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translateZ(-50px);
+  transition: transform 1s;
+}
+
+.diceFace {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border: 2px;
+  border-style: solid;
+  border-color: white;
+  color: blueviolet;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.diceFaces.roll1 {
+  transform: translateZ(-50px) rotateY(0deg);
+}
+.diceFaces.roll2 {
+  transform: translateZ(-50px) rotateY(-180deg);
+}
+.diceFaces.roll3 {
+  transform: translateZ(-50px) rotateY(-90deg);
+}
+.diceFaces.roll4 {
+  transform: translateZ(-50px) rotateY(90deg);
+}
+.diceFaces.roll5 {
+  transform: translateZ(-50px) rotateX(-90deg);
+}
+.diceFaces.roll6 {
+  transform: translateZ(-50px) rotateX(90deg);
+}
+
+.diceface1 {
+  background: gold;
+  opacity: 0.8;
+}
+.diceface2 {
+  background: gold;
+  opacity: 0.8;
+}
+.diceface3 {
+  background: gold;
+  opacity: 0.8;
+}
+.diceface4 {
+  background: gold;
+  opacity: 0.8;
+}
+.diceface5 {
+  background: gold;
+  opacity: 0.8;
+}
+.diceface6 {
+  background: gold;
+  opacity: 0.8;
+}
+
+.diceface1 {
+  transform: rotateY(0deg) translateZ(50px);
+}
+.diceface2 {
+  transform: rotateY(180deg) translateZ(50px);
+}
+.diceface3 {
+  transform: rotateY(90deg) translateZ(50px);
+}
+.diceface4 {
+  transform: rotateY(-90deg) translateZ(50px);
+}
+.diceface5 {
+  transform: rotateX(90deg) translateZ(50px);
+}
+.diceface6 {
+  transform: rotateX(-90deg) translateZ(50px);
+}
+
+.cards {
+  width: 650px;
+  height: 550px;
+  border-style: solid;
+  position: absolute;
+  right: 3px;
+  top: 8px;
+}
+
+@media (max-width: 1650px) {
+  .cards {
+    width: 650px;
+    height: 550px;
+    border-style: solid;
+    position: absolute;
+    left: 3px;
+    top: 945px;
+  }
+}
+
+.card1 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 10px;
+  background-color: white;
+}
+
+.card1 .name {
+  padding: 5% 27%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: saddlebrown;
+}
+
+.card1 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card1 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card1 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card1 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card1 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card2 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 137px;
+  background-color: white;
+}
+
+.card2 .name {
+  padding: 5% 40%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: saddlebrown;
+}
+
+.card2 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card2 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card2 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card2 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card2 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card3 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 264px;
+  background-color: white;
+}
+
+.card3 .name {
+  padding: 5% 37%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: deepskyblue;
+}
+
+.card3 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card3 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card3 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card3 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card3 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card4 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 391px;
+  background-color: white;
+}
+
+.card4 .name {
+  padding: 5% 30%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: deepskyblue;
+}
+
+.card4 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card4 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card4 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card4 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card4 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card5 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 518px;
+  background-color: white;
+}
+
+.card5 .name {
+  padding: 5% 30%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: aqua;
+}
+
+.card5 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card5 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card5 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card5 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card5 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card6 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 140px;
+  left: 10px;
+  background-color: white;
+}
+
+.card6 .name {
+  padding: 5% 32%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: magenta;
+}
+
+.card6 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card6 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card6 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card6 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card6 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card7 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 140px;
+  left: 137px;
+  background-color: white;
+}
+
+.card7 .name {
+  padding: 5% 32%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: magenta;
+}
+
+.card7 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card7 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card7 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card7 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card7 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card8 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 140px;
+  left: 264px;
+  background-color: white;
+}
+
+.card8 .name {
+  padding: 5% 32%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: orange;
+}
+
+.card8 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card8 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card8 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card8 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card8 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card9 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 140px;
+  left: 391px;
+  background-color: white;
+}
+
+.card9 .name {
+  padding: 5% 25%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: orange;
+}
+
+.card9 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card9 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card9 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card9 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card9 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card10 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 140px;
+  left: 518px;
+  background-color: white;
+}
+
+.card10 .name {
+  padding: 5% 29%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: aqua;
+}
+
+.card10 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card10 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card10 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card10 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card10 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card11 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 277px;
+  left: 10px;
+  background-color: white;
+}
+
+.card11 .name {
+  padding: 5% 38%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: red;
+}
+
+.card11 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card11 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card11 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card11 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card11 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card12 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 277px;
+  left: 137px;
+  background-color: white;
+}
+
+.card12 .name {
+  padding: 5% 25%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: red;
+}
+
+.card12 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card12 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card12 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card12 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card12 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card13 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 277px;
+  left: 264px;
+  background-color: white;
+}
+
+.card13 .name {
+  padding: 5% 35%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: gold;
+}
+
+.card13 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card13 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card13 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card13 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card13 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card14 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 277px;
+  left: 391px;
+  background-color: white;
+}
+
+.card14 .name {
+  padding: 5% 32%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: gold;
+}
+
+.card14 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card14 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card14 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card14 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card14 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card15 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 277px;
+  left: 518px;
+  background-color: white;
+}
+
+.card15 .name {
+  padding: 5% 31%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: aqua;
+}
+
+.card15 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card15 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card15 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card15 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card15 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card16 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 415px;
+  left: 10px;
+  background-color: white;
+}
+
+.card16 .name {
+  padding: 5% 39.5%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: green;
+}
+
+.card16 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card16 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card16 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card16 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card16 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card17 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 415px;
+  left: 137px;
+  background-color: white;
+}
+
+.card17 .name {
+  padding: 5% 30%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: green;
+}
+
+.card17 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card17 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card17 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card17 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card17 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card18 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 415px;
+  left: 264px;
+  background-color: white;
+}
+
+.card18 .name {
+  padding: 5% 33%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: blue;
+}
+
+.card18 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card18 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card18 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card18 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card18 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card19 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 415px;
+  left: 391px;
+  background-color: white;
+}
+
+.card19 .name {
+  padding: 5% 30%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: blue;
+}
+
+.card19 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card19 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card19 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card19 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card19 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.card20 {
+  width: 113px;
+  height: 125px;
+  border-style: solid;
+  position: absolute;
+  top: 415px;
+  left: 518px;
+  background-color: white;
+}
+
+.card20 .name {
+  padding: 5% 33%;
+  border-style: solid;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  background-color: aqua;
+}
+
+.card20 .level0 {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+}
+
+.card20 .level1 {
+  position: absolute;
+  top: 57px;
+  left: 5px;
+}
+
+.card20 .level2 {
+  position: absolute;
+  top: 74px;
+  left: 5px;
+}
+
+.card20 .level3 {
+  position: absolute;
+  top: 91px;
+  left: 5px;
+}
+
+.card20 .owner {
+  position: absolute;
+  top: 108px;
+  left: 5px;
+}
+
+.players {
+  width: 650px;
+  height: 350px;
+  border-style: solid;
+  position: absolute;
+  right: 3px;
+  bottom: 10px;
+}
+
+@media (max-width: 1650px) {
+  .players {
+    width: 650px;
+    height: 350px;
+    border-style: solid;
+    position: absolute;
+    left: 3px;
+    top: 1525px;
+  }
+}
+
+.player1 {
+  width: 300px;
+  height: 150px;
+  border-style: solid;
+  border-color: skyblue;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.player1 img {
+  width: 40%;
+  position: absolute;
+}
+
+.p1info {
+  position: absolute;
+  right: 0;
+  left: 130px;
+}
+
+#P1Name {
+  font-size: 18px;
+}
+
+.player1 #budget {
+  font-size: 18px;
+}
+
+.player2 {
+  width: 300px;
+  height: 150px;
+  border-style: solid;
+  border-color: blueviolet;
+  position: absolute;
+  top: 10px;
+  left: 330px;
+}
+
+.player2 img {
+  width: 40%;
+  position: absolute;
+}
+
+.p2info {
+  position: absolute;
+  right: 0;
+  left: 130px;
+}
+
+#P2Name {
+  font-size: 18px;
+}
+
+.player2 #budget {
+  font-size: 18px;
+}
+
+.player3 {
+  width: 300px;
+  height: 150px;
+  border-style: solid;
+  border-color: chocolate;
+  position: absolute;
+  top: 180px;
+  left: 10px;
+}
+
+.player3 img {
+  width: 40%;
+  position: absolute;
+}
+
+.p3info {
+  position: absolute;
+  right: 0;
+  left: 130px;
+}
+
+#P3Name {
+  font-size: 18px;
+}
+
+.player3 #budget {
+  font-size: 18px;
+}
+
+.player4 {
+  width: 300px;
+  height: 150px;
+  border-style: solid;
+  border-color: orange;
+  position: absolute;
+  top: 180px;
+  left: 330px;
+}
+
+.player4 img {
+  width: 40%;
+  position: absolute;
+}
+
+.p4info {
+  position: absolute;
+  right: 0;
+  left: 130px;
+}
+
+#P4Name {
+  font-size: 18px;
+}
+
+.player4 #budget {
+  font-size: 18px;
+}
